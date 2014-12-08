@@ -1,0 +1,125 @@
+#main{
+	background-color: ;
+}
+#background{
+	background-color: #f7f6ec;
+	width: 960px;
+	margin: auto;
+	padding: 20px;
+}
+#main_content_1{
+	background-color: #f7f6ec;
+	border: 2px solid black;
+	padding: 3px;
+}
+#main_content_2{
+	background-color: cornflowerblue;
+	border: 2px solid #b39c5a;
+}
+#header{
+	background-color:red;
+	text-align: center;
+}
+#header_email{
+	background-color:antiquewhite;
+	overflow: hidden;
+}
+#language{
+	float: left;
+	margin-left: auto;
+	font-family: AcademyC Italic, Bold;
+	text-size: 10px;
+	border-bottom: 2px solid #b39c5a;
+}
+#mail{
+	float: right;
+	margin-right: auto;
+	font-family: AcademyC Italic Bold;
+	border-bottom: 2px solid #b39c5a;
+	background-color: blueviolet;
+}
+#header_name{
+	background-color:aqua;
+	float: none;
+	font-family: AcademyC Italic Bold;
+	font-size:48px;
+	}
+#header_events{
+	background-color: bisque;
+}
+#header_pic_tex{
+	background-color: coral;
+}
+#header_pic{
+	background-color: darkgoldenrod;
+}
+#header_menu{
+	background-color: deeppink;
+}
+#menu_main{
+	background-color: darkseagreen;
+}
+#menu_text{
+	background-color: greenyellow;
+}
+#content{
+	background-color:blue;
+	text-align: center;
+}
+#footer{
+	background-color:yellow;
+	text-align: center;
+}
+#text_line_2{
+	background-color:antiquewhite;
+}
+#footer_text{
+	background-color:aqua;
+}
+#partner_main{
+	background-color: bisque;
+	overflow:hidden;
+}
+#partner_column_1{
+	background-color: coral;
+}
+#partner_pic_1{
+	background-color: darkseagreen;
+}
+#partner_pic_2{
+	background-color: greenyellow;
+}
+#partner_column_2{
+	background-color: darkgoldenrod;
+}
+#partner_pic_3{
+	background-color: lime;
+}
+#partner_pic_4{
+	background-color: blanchedalmond;
+}
+#partner_pic_5{
+	background-color: wheat;
+}
+#partner_column_3{
+	background-color: deeppink;
+}
+#partner_pic_6{
+	background-color: cornflowerblue;
+}
+#partner_pic_7{
+	background-color: cyan;
+}
+#text_line_3{
+	background-color:aqua;
+}
+#contacts{
+	background-color:aqua;
+	overflow:hidden;
+}
+#contact_1{
+	background-color: darkseagreen;
+}
+#contact_2{
+	background-color: greenyellow;
+}
