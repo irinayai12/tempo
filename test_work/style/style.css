@@ -1,9 +1,21 @@
+@font-face{
+	font-family: AcademyC;
+	src: url(../fonts/AcademyC.otf);
+}
+@font-face{
+	font-family: AcademyC Italic;
+	src: url(../fonts/AcademyC_Italic.otf);
+}
+/*html *
+{
+	font-family: AcademyC !important;
+}*/
 #main{
-	background-color: ;
+
 }
 #background{
 	background-color: #f7f6ec;
-	width: 960px;
+	width: 1275px;
 	margin: auto;
 	padding: 20px;
 }
@@ -13,51 +25,67 @@
 	padding: 3px;
 }
 #main_content_2{
-	background-color: cornflowerblue;
 	border: 2px solid #b39c5a;
 }
 #header{
-	background-color:red;
 	text-align: center;
 }
 #header_email{
-	background-color:antiquewhite;
 	overflow: hidden;
 }
 #language{
 	float: left;
 	margin-left: auto;
-	font-family: AcademyC Italic, Bold;
-	text-size: 10px;
 	border-bottom: 2px solid #b39c5a;
+	font-family: AcademyC Italic;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 #mail{
 	float: right;
 	margin-right: auto;
-	font-family: AcademyC Italic Bold;
 	border-bottom: 2px solid #b39c5a;
-	background-color: blueviolet;
+	font-family: AcademyC Italic;
+	margin-top: 10px;
+	margin-right: 10px;
 }
 #header_name{
-	background-color:aqua;
 	float: none;
-	font-family: AcademyC Italic Bold;
+	font-family:  AcademyC, bold;
 	font-size:48px;
+	margin-bottom: 20px;
 	}
 #header_events{
 	background-color: bisque;
+	overflow:hidden;
 }
 #header_pic_tex{
 	background-color: coral;
+	float: left;
+	text-align: left;
+	width: 370px;
+	padding-left: 50px;
+	padding-top: 5px;
+	font-family: AcademyC;
 }
 #header_pic{
-	background-color: darkgoldenrod;
+	background-color: white;
+	float: left;
+	width: 395px;
+	height: 508px;
+	border: 3px solid #b39c5a;
+	padding: 5px;
 }
 #header_menu{
 	background-color: deeppink;
+	float: right;
+	width: 430px;
+
 }
 #menu_main{
 	background-color: darkseagreen;
+	padding-top: 10px;
+	padding-right: 50px;
 }
 #menu_text{
 	background-color: greenyellow;
