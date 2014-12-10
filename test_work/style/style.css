@@ -6,6 +6,10 @@
 	font-family: AcademyC Italic;
 	src: url(../fonts/AcademyC_Italic.otf);
 }
+@font-face{
+	font-family: Gulim;
+	src: url(../fonts/gulim.ttc);
+}
 /*html *
 {
 	font-family: AcademyC !important;
@@ -22,10 +26,10 @@
 #main_content_1{
 	background-color: #f7f6ec;
 	border: 2px solid black;
-	padding: 3px;
+	padding: 4px;
 }
 #main_content_2{
-	border: 2px solid #b39c5a;
+	border: 1px solid #b39c5a;
 }
 #header{
 	text-align: center;
@@ -36,7 +40,7 @@
 #language{
 	float: left;
 	margin-left: auto;
-	border-bottom: 2px solid #b39c5a;
+	border-bottom: 1px solid #b39c5a;
 	font-family: AcademyC Italic;
 	margin-top: 10px;
 	margin-left: 10px;
@@ -44,7 +48,7 @@
 #mail{
 	float: right;
 	margin-right: auto;
-	border-bottom: 2px solid #b39c5a;
+	border-bottom: 1px solid #b39c5a;
 	font-family: AcademyC Italic;
 	margin-top: 10px;
 	margin-right: 10px;
@@ -54,13 +58,13 @@
 	font-family:  AcademyC, bold;
 	font-size:48px;
 	margin-bottom: 20px;
-	}
+	color: #b39c5a;
+}
 #header_events{
-	background-color: bisque;
+	background-color: #f7f6ec;
 	overflow:hidden;
 }
 #header_pic_tex{
-	background-color: coral;
 	float: left;
 	text-align: left;
 	width: 370px;
@@ -74,80 +78,118 @@
 	width: 395px;
 	height: 508px;
 	border: 3px solid #b39c5a;
-	padding: 5px;
+	padding: 10px;
+	padding-left: 10px;
 }
 #header_menu{
-	background-color: deeppink;
 	float: right;
-	width: 430px;
-
-}
-#menu_main{
-	background-color: darkseagreen;
-	padding-top: 10px;
-	padding-right: 50px;
+	width: 420px;
 }
 #menu_text{
-	background-color: greenyellow;
+	margin-right: 100px;
+	margin-left: 30px;
+	margin-top: 100px;
 }
 #content{
 	background-color:blue;
 	text-align: center;
 }
 #footer{
-	background-color:yellow;
 	text-align: center;
 }
 #text_line_2{
-	background-color:antiquewhite;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: AcademyC;
+	text-align: center;
+	font-size: 35px;
+}
+.line_left{
+	width: 450px;
+	height: 1px;
+	border: none;
+	float: left;
+	background:-moz-linear-gradient(left,  #9a6c3f 0%, #f3ddbd 100%);
+	background:-webkit-linear-gradient(left,    #9a6c3f 0%, #f3ddbd 100%);
+	background:linear-gradient(left,   #9a6c3f 0%, #f3ddbd 100%);
+}
+.line_right{
+	width: 450px;
+	height: 1px;
+	border: none;
+	float: right;
+	background:-moz-linear-gradient(left,  #f3ddbd 0%,#9a6c3f 100%);
+	background:-webkit-linear-gradient(left,   #f3ddbd 0%,#9a6c3f 100%);
+	background:linear-gradient(left, #f3ddbd 0%,#9a6c3f 100%);
 }
 #footer_text{
-	background-color:aqua;
+	font-family: AcademyC Italic;
+	font-size: 15px;
+	text-align: center;
+	padding-left: 290px;
+	padding-right: 290px;
 }
 #partner_main{
-	background-color: bisque;
 	overflow:hidden;
 }
 #partner_column_1{
-	background-color: coral;
+	float: left;
+	width: 430px;
 }
 #partner_pic_1{
-	background-color: darkseagreen;
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 #partner_pic_2{
-	background-color: greenyellow;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 #partner_column_2{
-	background-color: darkgoldenrod;
+	width: 400px;
+	float: left;
 }
 #partner_pic_3{
-	background-color: lime;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 #partner_pic_4{
-	background-color: blanchedalmond;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 #partner_pic_5{
-	background-color: wheat;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 #partner_column_3{
-	background-color: deeppink;
+	width: 400px
+	float: left;
 }
 #partner_pic_6{
-	background-color: cornflowerblue;
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 #partner_pic_7{
-	background-color: cyan;
+	margin-top: 40px;
+	margin-bottom: 60px;
 }
 #text_line_3{
-	background-color:aqua;
+	padding-left: 40px;
+	padding-right: 60px;
+	font-family: AcademyC;
+	text-align: center;
+	font-size: 35px;
 }
 #contacts{
-	background-color:aqua;
+
 	overflow:hidden;
 }
 #contact_1{
-	background-color: darkseagreen;
+	width: 630px;
+	float: left;
+	margin: 50px 0px;
 }
 #contact_2{
-	background-color: greenyellow;
+	width: 630px;
+	margin: 50px 0px;
+	float: right;
 }
