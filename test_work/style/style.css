@@ -39,15 +39,15 @@
 }
 #language{
 	float: left;
-	margin-left: auto;
 	border-bottom: 1px solid #b39c5a;
 	font-family: AcademyC Italic;
 	margin-top: 10px;
 	margin-left: 10px;
+	text-decoration:none;
+	list-style-type: none;
 }
 #mail{
 	float: right;
-	margin-right: auto;
 	border-bottom: 1px solid #b39c5a;
 	font-family: AcademyC Italic;
 	margin-top: 10px;
@@ -79,11 +79,11 @@
 	height: 508px;
 	border: 3px solid #b39c5a;
 	padding: 10px;
-	padding-left: 10px;
 }
 #header_menu{
 	float: right;
 	width: 420px;
+	font-family: AcademyC;
 }
 #menu_text{
 	margin-right: 100px;
@@ -91,8 +91,114 @@
 	margin-top: 100px;
 }
 #content{
-	background-color:blue;
 	text-align: center;
+}
+#line_content_1{
+	padding-top: 80px;
+	text-align: center;
+	font-family: AcademyC;
+	font-size: 35px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.line_cont_right{
+	width: 320px;
+	height: 1px;
+	border: none;
+	float: left;
+	background:-moz-linear-gradient(left,  #9a6c3f 0%, #f3ddbd 100%);
+	background:-webkit-linear-gradient(left,    #9a6c3f 0%, #f3ddbd 100%);
+	background:linear-gradient(left,   #9a6c3f 0%, #f3ddbd 100%);
+}
+.line_cont_left{
+	width: 320px;
+	height: 1px;
+	border: none;
+	float: right;
+	background:-moz-linear-gradient(left,  #f3ddbd 0%,#9a6c3f 100%);
+	background:-webkit-linear-gradient(left,   #f3ddbd 0%,#9a6c3f 100%);
+	background:linear-gradient(left, #f3ddbd 0%,#9a6c3f 100%);
+}
+#content_text{
+	font-family: AcademyC Italic;
+	font-size: 15px;
+	text-align: center;
+	padding-left: 360px;
+	padding-right: 360px;
+	padding-bottom: 20px;
+}
+#content_gallery{
+	text-align: center;
+	overflow: hidden;
+}
+.gallery_1{
+	float: left;
+	width: 420px;
+}
+.gallery_2{
+	float: left;
+	width: 420px;
+}
+.gallery_3{
+	float: left;
+	width: 420px;
+}
+.cont_main_text_1{
+overflow: hidden;
+	margin-top: 20px;
+}
+.expo_title{
+	/*padding-left: 300px;
+	padding-right: 50px;
+	text-align: left;*/
+}
+.title{
+	font-size: 55px;
+	border-bottom: 2px solid #b39c5a;
+	font-family: AcademyC;
+	text-decoration:none;
+	list-style-type: none;
+	color: black;
+}
+.expo_summary{
+	font-family: Arial;
+	font-size: 12px;
+	/*vertical-align: text-top;*/
+
+}
+#line_content_2{
+	padding-top: 80px;
+	text-align: center;
+	font-family: AcademyC;
+	font-size: 35px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.line_cont_right_2{
+	width: 400px;
+	height: 1px;
+	border: none;
+	float: left;
+	background:-moz-linear-gradient(left,  #9a6c3f 0%, #f3ddbd 100%);
+	background:-webkit-linear-gradient(left,    #9a6c3f 0%, #f3ddbd 100%);
+	background:linear-gradient(left,   #9a6c3f 0%, #f3ddbd 100%);
+}
+.line_cont_left_2{
+	width: 400px;
+	height: 1px;
+	border: none;
+	float: right;
+	background:-moz-linear-gradient(left,  #f3ddbd 0%,#9a6c3f 100%);
+	background:-webkit-linear-gradient(left,   #f3ddbd 0%,#9a6c3f 100%);
+	background:linear-gradient(left, #f3ddbd 0%,#9a6c3f 100%);
+}
+#content_text_2{
+	font-family: AcademyC Italic;
+	font-size: 15px;
+	text-align: center;
+	padding-left: 260px;
+	padding-right: 260px;
+	padding-bottom: 20px;
 }
 #footer{
 	text-align: center;
@@ -100,12 +206,13 @@
 #text_line_2{
 	padding-left: 50px;
 	padding-right: 50px;
+	padding-top: 80px;
 	font-family: AcademyC;
 	text-align: center;
 	font-size: 35px;
 }
 .line_left{
-	width: 450px;
+	width: 470px;
 	height: 1px;
 	border: none;
 	float: left;
@@ -114,7 +221,7 @@
 	background:linear-gradient(left,   #9a6c3f 0%, #f3ddbd 100%);
 }
 .line_right{
-	width: 450px;
+	width: 470px;
 	height: 1px;
 	border: none;
 	float: right;
@@ -137,11 +244,11 @@
 	width: 430px;
 }
 #partner_pic_1{
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-bottom: 50px;
 }
 #partner_pic_2{
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-bottom: 50px;
 }
 #partner_column_2{
@@ -153,11 +260,11 @@
 	margin-bottom: 50px;
 }
 #partner_pic_4{
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-bottom: 50px;
 }
 #partner_pic_5{
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-bottom: 50px;
 }
 #partner_column_3{
@@ -170,26 +277,32 @@
 }
 #partner_pic_7{
 	margin-top: 40px;
-	margin-bottom: 60px;
+	margin-bottom: 250px;
 }
 #text_line_3{
-	padding-left: 40px;
-	padding-right: 60px;
+	padding-left: 50px;
+	padding-right: 50px;
 	font-family: AcademyC;
 	text-align: center;
 	font-size: 35px;
 }
 #contacts{
-
 	overflow:hidden;
 }
 #contact_1{
 	width: 630px;
 	float: left;
-	margin: 50px 0px;
+	margin: 50px 0;
+}
+.city{
+	font-family: AcademyC;
+}
+.city_contacts{
+	font-family: Arial;
+	font-size: 12px;
 }
 #contact_2{
 	width: 630px;
-	margin: 50px 0px;
+	margin: 50px 0;
 	float: right;
 }
